@@ -20,7 +20,7 @@ class vodafone extends StatelessWidget {
               onTap: (){
                 
               },
-              child: Text("Vodafone")),
+              child: SelectableText("Vodafone")),
         ),
         body: SingleChildScrollView(
           child: Column(
@@ -36,7 +36,7 @@ class vodafone extends StatelessWidget {
               ),
               AlertDialog(
                 elevation: 0,
-                title: Text(
+                title: SelectableText(
                   "اطلب 888 ب 50 قرش مهما طالت مدة المكالمة",
                   style: TextStyle(color: Colors.black , fontSize: 20),
                 ),
@@ -56,7 +56,7 @@ class vodafone extends StatelessWidget {
               AlertDialog(
                 elevation: 0,
                 title: Center(
-                  child: Text(
+                  child: SelectableText(
                     "لمعرفة رقم خطك اطلب  \n            *878#",
                     style: TextStyle(
                       fontSize: 20
@@ -82,7 +82,7 @@ class vodafone extends StatelessWidget {
                   AlertDialog(
                     elevation: 0,
                     title:
-                    Text('''كود لشحن كارت فودافون هو (#كود كارت الشحن*868*).\n
+                    SelectableText('''كود لشحن كارت فودافون هو (#كود كارت الشحن*868*).\n
 كود لتفعيل خاصية الانتظار فودافون هو (43#*).\n
 كود لخدمة سلفني شكرًا فودافون هو (3#*868*).\n
 كود لتحويل رصيد فودافون هو (#المبلغ*الرقم المراد التحويل له*2*868*).\n
@@ -124,7 +124,7 @@ class vodafone extends StatelessWidget {
                   const AlertDialog(
                     elevation: 0,
                     title: Center(
-                      child: Text(
+                      child: SelectableText(
                         '''كود خدمة عملاء فودافون كاش هو ( 7001)\n
 اطلب #9*9* لمعرفة أقرب فرع لفودافون  \n
 اطلب #13*9* لمعرفة رصيدك في فودافون كاش\n

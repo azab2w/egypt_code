@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class orange extends StatelessWidget {
-  static const routeName = 'orange';
+  static const String routeName = 'orange';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,7 +25,7 @@ class orange extends StatelessWidget {
             ),
             AlertDialog(
               elevation: 0,
-              title: Text(
+              title: SelectableText(
                 '''لخدمة عملاء اورنج اطلب 110 بقيمة 50 قرش للمكالمة .\n
  لخدمة عملاء اورنج الخاصة ب استار و اتكلم واتحكم اتصل علي رقم 210 سعر المكالمة 50 قرش.\n
  لخدمة عملاء اورنج الخاصة بـ الدرجة الأولى اطلب رقم 2000 بسعر 50 قرش للمكالمة .\n
@@ -49,7 +49,7 @@ class orange extends StatelessWidget {
             AlertDialog(
               elevation: 0,
               title: Center(
-                child: Text(
+                child: SelectableText(
                   '''#لمعرفة رقمك #119''',
                   style: TextStyle(
                       fontSize: 20
@@ -75,7 +75,7 @@ class orange extends StatelessWidget {
                 AlertDialog(
                   elevation: 0,
                   title:
-                  Text('''#لمعرفة الميجابايتس المتبقية #136.\n
+                  SelectableText('''#لمعرفة الميجابايتس المتبقية #136.\n
 \n#لتجديد باقة الانترنت #100.\n
 \n#لتحويل الميجابايتس #100#4.
 \n#لرسائل ضبط الإنترنت #100#4.
@@ -117,7 +117,7 @@ class orange extends StatelessWidget {
                 const AlertDialog(
                   elevation: 0,
                   title: Center(
-                    child: Text(
+                    child: SelectableText(
                       '''وحددت شركة الاتصالات والهواتف المحمولة المصرية orange التي كانت تعرف في الوقت الماضي باسم mobinil، بعض الشروط الأساسية الواجب توافرها في العميل لكي يستطيع الاشتراك في خدمة أورنج كاش، والتي نطرحها أمامكم من خلال نقاط واضحة للتعرف عليها كما يلي:
 
 أولاً: يحب الحضور إلى أحد فروع شركة أورنج التابعة لمحافظة العميل.
@@ -150,7 +150,7 @@ class orange extends StatelessWidget {
                 AlertDialog(
                   elevation: 0,
                   title: Center(
-                    child: Text(
+                    child: SelectableText(
                       '''في الخطوة الأولى يقوم المشترك بالاتصال على رقم (115).\n
 \nبعدها يقوم بالضغط على الرقم (1).
 ثم يليها مباشرةً بالضغط على الرقم (2) في حال الرغبة بشحن الرصيد.\n

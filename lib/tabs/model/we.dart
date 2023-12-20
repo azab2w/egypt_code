@@ -25,7 +25,7 @@ class we extends StatelessWidget {
             ),
             AlertDialog(
               elevation: 0,
-              title: Text(
+              title: SelectableText(
                 'رقم خدمة العملاء لشركة المصرية للاتصالات الخط الساخن: اتصل بـ 111',
                 style: TextStyle(color: Colors.black , fontSize: 20),
               ),
@@ -45,7 +45,7 @@ class we extends StatelessWidget {
             AlertDialog(
               elevation: 0,
               title: Center(
-                child: Text(
+                child: SelectableText(
                   " #لمعرفة الرقم الخاص بك: *688",
                   style: TextStyle(
                       fontSize: 20
@@ -71,7 +71,7 @@ class we extends StatelessWidget {
                 AlertDialog(
                   elevation: 0,
                   title:
-                  Text('''\n*كود عروض وي اليوميه: #015.
+                  SelectableText('''\n*كود عروض وي اليوميه: #015.
 \n*كود الاحتفاظ بالمكالمات we وي: #322.
 \n*كود بلاك ليست وي: #800.
 \n*كود شحن كارت وي: # رقم الكارت*555.
@@ -113,7 +113,7 @@ class we extends StatelessWidget {
                 const AlertDialog(
                   elevation: 0,
                   title: Center(
-                    child: Text(
+                    child: SelectableText(
                       '''يمكنكم استخدام كود 44240 في حالة الإيداع الخاصة بالمعاملات المالية والبنكية، محفظة وي وللإيداع في المحفظة قم بإدخال الرقم الخاص بالمحفظة، ثم ادخل المبلغ، وبعد ذلك ادخل الرقم السري.
 \nوفي حالة السحب عليكم باستخدام كود الخدمة 44250 وذلك خاص بالمعاملات المالية والبنكية والمحفظة الخاصة وي، قم بالسحب من المحفظة بإدخال الرقم المرجعي.
 الكود المختصر ( #322*) لمن لا يمتلك هاتف عادي ويود معرفة الرصيد الخاص به في محفظة WE Pay، أما إذا كنت من أصحاب الهواتف الذكية يمكنك تحميل تطبيق وي باي من متجر جوجل بلاي لتتعرف على رصيد محفظتك بسهولة''',

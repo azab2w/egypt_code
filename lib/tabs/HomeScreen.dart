@@ -17,19 +17,19 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.grey,
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blueGrey,
           centerTitle: true,
           toolbarHeight: 80,
           title: Text(
-            '  اكواد تهمك  ',
-            style: TextStyle(fontSize: 30),
+            ' شركات الاتصالات',
+            style: TextStyle(fontSize: 25 , color: Colors.white),
           )),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             InkWell(
               onTap: (){
@@ -40,12 +40,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
-                    color: Color(0XFFbc0711)
+                    color: Color(0XFFe60000)
                   ),
                   child:  Image(
                     image: AssetImage('asset/images.png'),
                     width: 380,
-                    height: 250,
+                    height: 150,
                   )
               ),
             ),
@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child:  Image(
                     image: AssetImage('asset/Etisalat-Misr-300x300.jpg'),
                     width: 30,
-                    height: 230,
+                    height: 150,
                   )
               ),
             ),
@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child:  Image(
                     image: AssetImage('asset/downloadOrange.png'),
                     width: 30,
-                    height: 230,
+                    height: 150,
                   )
               ),
             ),
@@ -98,11 +98,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   child:Image(
                     image: AssetImage('asset/download.jpeg'),
-                  height: 220,
+                  height: 150,
                   )
               ),
             ),
-            SizedBox(height: 10,)
+            SizedBox(height: 10,),
           ],
         ),
       ),

@@ -25,7 +25,7 @@ class etisalat extends StatelessWidget {
             ),
             AlertDialog(
               elevation: 0,
-              title: Text(
+              title: SelectableText(
             '''الاتصال برقم خدمة العملاء اتصل علي 333.
 لخدمة العملاء من الخط الأرضي اتصل بـ 0235346333.
 اتصل بخدمة العملاء من أي شبكة أخرى من خلال 01111234333.
@@ -50,7 +50,7 @@ class etisalat extends StatelessWidget {
             AlertDialog(
               elevation: 0,
               title: Center(
-                child: Text(
+                child: SelectableText(
                   "*لمعرفة الرقم اطلب #947",
                   style: TextStyle(
                       fontSize: 20
@@ -76,7 +76,7 @@ class etisalat extends StatelessWidget {
                 AlertDialog(
                   elevation: 0,
                   title:
-                  Text('''للاستعلام عن الرصيد # 555* أو # 888*.\n
+                  SelectableText('''للاستعلام عن الرصيد # 555* أو # 888*.\n
 لشحن الرصيد من خلال الكارت # 556* رقم الكارت * أو بالاتصال عن طريق بـ 555.\n
 لمعرفة نظام خطك اتصل بالرقم 555.\n
 لتغير النظام الخاص بك اتصل بـ 525\n
@@ -127,7 +127,7 @@ class etisalat extends StatelessWidget {
                 const AlertDialog(
                   elevation: 0,
                   title: Center(
-                    child: Text(
+                    child: SelectableText(
                       '''لالغاء خدمة الكول تون من اتصالات اطلب # 7 * 911 *.\n
 إلغاء اذا كان الرقم غير موجود بالخدمة أطلب #21#.\n
 لسلفني شكرا اشترك عن طريق # 911*.\n
